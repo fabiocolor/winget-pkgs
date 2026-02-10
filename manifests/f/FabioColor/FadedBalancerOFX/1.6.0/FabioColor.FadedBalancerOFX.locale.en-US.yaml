@@ -1,0 +1,24 @@
+# Prepared by Codex (draft branch)
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.defaultLocale.1.9.0.schema.json
+
+PackageIdentifier: FabioColor.FadedBalancerOFX
+PackageVersion: 1.6.0
+PackageLocale: en-US
+Publisher: Fabio Color
+PublisherUrl: https://github.com/fabiocolor
+PublisherSupportUrl: https://github.com/fabiocolor/Faded-Balancer-OFX/issues
+PackageName: Faded Balancer OFX
+PackageUrl: https://github.com/fabiocolor/Faded-Balancer-OFX
+License: MIT
+LicenseUrl: https://github.com/fabiocolor/Faded-Balancer-OFX/blob/main/LICENSE
+ShortDescription: OpenFX plugin for recovering and balancing faded film scans.
+Description: Faded Balancer OFX helps rebalance RGB channels and recover faded film scans in compatible OpenFX hosts.
+Moniker: fadedbalancerofx
+Tags:
+- film
+- grading
+- ofx
+- restoration
+ReleaseNotesUrl: https://github.com/fabiocolor/Faded-Balancer-OFX/releases/tag/v1.6.0
+ManifestType: defaultLocale
+ManifestVersion: 1.9.0

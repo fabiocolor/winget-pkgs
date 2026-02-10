@@ -1,0 +1,18 @@
+# Prepared by Codex (draft branch)
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.9.0.schema.json
+
+PackageIdentifier: FabioColor.FadedBalancerOFX
+PackageVersion: 1.6.0
+InstallerType: zip
+NestedInstallerType: inno
+Installers:
+- Architecture: x64
+  InstallerUrl: https://github.com/fabiocolor/Faded-Balancer-OFX/releases/download/v1.6.0/FadedBalancerPro-1.6.0-win64.zip
+  InstallerSha256: AB12A73849D094A896ED500429BA6F0A2672B0F1120743A89E6EE48727FEF8AC
+  NestedInstallerFiles:
+    - RelativeFilePath: FadedBalancerPro-1.6.0-win64.exe
+  InstallerSwitches:
+    Silent: /VERYSILENT /SUPPRESSMSGBOXES /NORESTART /SP-
+    SilentWithProgress: /SILENT /SUPPRESSMSGBOXES /NORESTART /SP-
+ManifestType: installer
+ManifestVersion: 1.9.0
