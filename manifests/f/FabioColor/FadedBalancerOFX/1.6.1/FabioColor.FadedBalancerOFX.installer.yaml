@@ -8,7 +8,7 @@ NestedInstallerType: inno
 Installers:
 - Architecture: x64
   InstallerUrl: https://github.com/fabiocolor/Faded-Balancer-OFX/releases/download/v1.6.1/FadedBalancerPro-1.6.1-win64.zip
-  InstallerSha256: 254960EF75E3EFB92BA322E5624EC45EA47B40457BE49C3D71E5D55D011497DA
+  InstallerSha256: C8B6291F4C81FEDAFF2B5F37C020B20F6F349C2638F6DBF129B03A81DB1E3717
   NestedInstallerFiles:
     - RelativeFilePath: FadedBalancerPro-1.6.1-win64.exe
   InstallerSwitches:
