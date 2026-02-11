@@ -3,14 +3,11 @@
 
 PackageIdentifier: FabioColor.FadedBalancerOFX
 PackageVersion: 1.6.1
-InstallerType: zip
-NestedInstallerType: inno
+InstallerType: inno
 Installers:
 - Architecture: x64
-  InstallerUrl: https://github.com/fabiocolor/Faded-Balancer-OFX/releases/download/v1.6.1/FadedBalancerPro-1.6.1-win64.zip
-  InstallerSha256: C8B6291F4C81FEDAFF2B5F37C020B20F6F349C2638F6DBF129B03A81DB1E3717
-  NestedInstallerFiles:
-    - RelativeFilePath: FadedBalancerPro-1.6.1-win64.exe
+  InstallerUrl: https://github.com/fabiocolor/Faded-Balancer-OFX/releases/download/v1.6.1/FadedBalancerPro-1.6.1-win64.exe
+  InstallerSha256: 8EAEDE70C0583F8C4D8F85BE9B51053B41C9783F26C168C46F88DEF210909D6C
   InstallerSwitches:
     Silent: /VERYSILENT /SUPPRESSMSGBOXES /NORESTART /SP-
     SilentWithProgress: /SILENT /SUPPRESSMSGBOXES /NORESTART /SP-
